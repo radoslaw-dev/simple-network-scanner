@@ -28,6 +28,7 @@ Then provide:
 
 ## Example 
 
+```
 Scanning 192.168.0.1...
 [+] 192.168.0.1 is active
 Scanning 192.168.0.2...
@@ -38,7 +39,7 @@ Active hosts: 1
 Time elapsed: 3.21 seconds
 
 [+] 192.168.0.1
-
+```
 ## Notes
 - The script uses system ping, so results depend on network configuration
 - Some devices may block ping requests
