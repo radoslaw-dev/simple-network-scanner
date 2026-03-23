@@ -26,4 +26,23 @@ Then provide:
 - Starting range (e.g. 1)
 - Ending range (e.g. 20)
 
-#Example 
+## Example 
+
+Scanning 192.168.0.1...
+[+] 192.168.0.1 is active
+Scanning 192.168.0.2...
+[-] 192.168.0.2 is inactive
+
+======== Scan complete ========
+Active hosts: 1
+Time elapsed: 3.21 seconds
+
+[+] 192.168.0.1
+
+## Notes
+- The script uses system ping, so results depend on network configuration
+- Some devices may block ping requests
+
+## Author
+
+Radoslaw Cis
